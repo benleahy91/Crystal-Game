@@ -1,0 +1,54 @@
+Variables
+	userScore = 0
+	compScore = 0
+	Wins = 0
+	Losses = 0
+	blueCrystal = 0
+	greenCrystal = 0
+	redCrystal = 0
+	yellowCrystal = 0
+
+Functions
+	startGame
+		set random value for each crystal
+		set random value for compScore
+			Push to page
+
+	playGame
+		addScore
+			add crystal value to userScore
+			
+
+		checkWin
+			Check to see if userScore is equal to compScore
+				If so
+					wins++
+					(startGame)
+			Check to see if userScore is greater tha comScore
+				If so
+					losses++
+					(startGame)
+
+	// $("#greenrupee").on("click", function() {
+
+	// 	});
+
+	// $("#redrupee").on("click", function() {
+
+	// });
+
+	// $("#yellowrupee").on("click", function() {
+
+	// });
+
+	// });
+
+
+	$("#bluerupee").on("click", function() {
+		$(document).ready(function() {
+		userScore = ''
+		userScore = userScore + blueRupee;
+		console.log(userScore)
+		$("#userscore").text(userScore);
+		});
+	});

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Crystal Collector</title>
+</head>
+
+<body>
+	<img src="assets/images/diamond-bg.jpg" id="bg" alt="">
+	<div class= "container-fluid text-center">
+
+		<div class= "row">
+			<div class= "col-md-12 col-sm-12">
+				<h1> Crystal Collector </h1>
+			</div>
+		</div>
+
+		<div class= "row">
+			<div class= "col-md-4 offset-md-4">
+				<p>	
+					You will be given a random number at the start of the game.
+					There are four crystals below. The value of each crystal is hidden from you until you click it.
+				</p>
+				<p>
+					By clicking on a crystal you will add a specific amount of points to your total score.
+				</p>
+				<p>
+					You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.
+				</p>
+				<p>
+					Each time the game starts, the game will change the value of each crystal.
+				</p>
+			</div>
+		</div>
+
+		<div class= "row">
+			<div class= "col-md-12">
+				<img class= rupee id= "bluerupee" src="assets/images/blue-rupee.png">
+				<img class= rupee id= "greenrupee" src="assets/images/green-rupee.png">
+				<img class= rupee id= "redrupee" src="assets/images/red-rupee.png">
+				<img class=rupee id= "yellowrupee" src="assets/images/yellow-rupee.png">
+			</div>
+		</div>
+
+		<div class= "row">
+			
+			<div class= "col-md-2 scorebox offset-md-4">
+				Your Score
+				<div id= "userscore">
+				</div>
+			</div>
+			<div class= "col-md-2 scorebox">
+				Goal
+				<div id= "computerscore">
+				</div>		
+			</div>
+
+		</div>
+
+		<div class= "row">
+			<div class= "col-md-2 winloss offset-md-4">
+				Wins
+				<div id="wins">
+				</div>
+			</div>
+			<div class= "col-md-2 winloss">
+				Losses
+				<div id="losses">
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+
+
+
+
+
+
+
+
